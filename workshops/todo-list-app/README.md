@@ -7,9 +7,9 @@ img: 'https://cloud-2nf3f60u4.vercel.app/0todo_app.png'
 
 # Todo App
 
-The combination of React and Firebase can move web applications to the whole next level. In this workshop, you will create an awesome full-stack Todo app using React for front-end and Firebase real-time database as back-end. By the end of this workshop, you will learn about implementing CRUD operations using Firebase. 
+The combination of React and Firebase can move web applications to the whole next level. In this workshop, you will create an awesome full-stack Todo app using React for front-end and Firebase real-time database as back-end. By the end of this workshop, you will learn about Forms in React and implementing CRUD operations using Firebase. 
 
-Take a peek at what we are going to build in this workshop. 👇
+We are going to build something similar to this. 👇
 
 ![Final todo app](https://cloud-2nf3f60u4.vercel.app/0todo_app.png)
 
