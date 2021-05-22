@@ -13,7 +13,7 @@ In this workshop, you're going to build a typing test website with HTML, CSS, an
 
 [Final demo](https://javascript-typing-test-final.gurshanbrar.repl.co/)
 <br>
-[Final code](https://repl.it/@GurshanBrar/javascript-typing-test-Final)
+[Final code](https://repl.it/@GurshanBrar/Javascript-Typing-Test-Final)
 
 ### Prerequisites
 This project will be more fun to code if you have a general understanding of HTML, CSS, and JavaScript. However, don't worry if you don't because you can definitely complete this workshop without any prerequisites.
@@ -30,7 +30,7 @@ An IDE (Integrated Development Environment) is just fancy speak for where your c
 ## Step 0: Forking the starter repl
 To fork (copy) the starter template,
 
-1. Navigate to the [Starter Template](https://repl.it/@GurshanBrar/JavaScript-Typing-Test-Starter)
+1. Navigate to the [Starter Template](https://replit.com/@GurshanBrar/Javascript-Typing-Test-Starter)
 2. Edit anything and the template will be copied as one of your repls
 3. Click on the run button to run the website, and click on the "open in a new tab" button on the right of the url inside the repl's output.
 
@@ -152,7 +152,7 @@ The ```!``` operator reverses the outcome of the condition. So if the key is ins
 We finally call our ```handleKey(key)``` function, and give the function access to our key. We'll make this next, but first a final code check. 
 
 #### Check In
-Your JavaScript at this point should look like this:
+
 <details>
 
 <summary>At this point, your JavaScript file should look like this:</summary>
