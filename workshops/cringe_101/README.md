@@ -2,6 +2,7 @@
 name: Cringe 101
 description: The most cringiest website ever
 author: '@notbrian, @JevinSidhu, @uditdesai, and @vaibhavyadaram'
+img: 
 ---
 
 _Hello friends! We need a community member to update this workshop to work without Cloud9. Interested? Message an admin in slack! Until then, this will live in the Retired section._
@@ -91,7 +92,7 @@ This isn't 100% necessary for the code to run (it will still totally do so), but
 
 They deliver beauties like this:
 
-![](img/hello.gif)
+![](https://cloud-90ixasr67-hack-club-bot.vercel.app/1hello.gif)
 
 Insert GIFs just like any other image format!
 
@@ -115,21 +116,21 @@ Let's break CSS down into an English sentence:
 
 Here's the CSS:
 
-![](img/img.png)
+![](https://cloud-90ixasr67-hack-club-bot.vercel.app/6img.png)
 
-![](img/img_key.png)
+![](https://cloud-90ixasr67-hack-club-bot.vercel.app/3img_key.png)
 
 For every **`img` tag** on the web page
 
-![](img/img_bracket.png)
+![](https://cloud-90ixasr67-hack-club-bot.vercel.app/2img_bracket.png)
 
 I want all the style properties inside the curly brackets to apply:
 
-![](img/img_width.png)
+![](https://cloud-90ixasr67-hack-club-bot.vercel.app/5img_width.png)
 
 specifically, I want the width
 
-![](img/img_value.png)
+![](https://cloud-90ixasr67-hack-club-bot.vercel.app/4img_value.png)
 
 to be 50% of the width of the page.
 
@@ -261,7 +262,7 @@ body {
 
 Tip — Along with changing the fonts, change the colors (`color`) and thickness (`font-weight`) of the different text as well to see your friends cringe even more!
 
-![](https://i.imgur.com/Ahl9pXr.gif)
+![](https://cloud-dw13hdws1-hack-club-bot.vercel.app/0Ahl9pXr.gif)
 
 ## Pseudo - Classes
 
@@ -309,7 +310,7 @@ You'll need to upload your sound file directly to C9 if you can't find it hosted
 
 Just follow the either method below to upload your file to C9.
 
-![](https://i.imgur.com/TeXlg3h.gif)
+![](https://cloud-gm8zmui8y-hack-club-bot.vercel.app/0TeXlg3h.gif)
 
 1. Drag and drop your file onto the folder tree you want to upload it under
 
@@ -317,7 +318,7 @@ Just follow the either method below to upload your file to C9.
 
 **Alternate Method**
 
-![](https://i.imgur.com/TwtpqXB.gif)
+![](https://cloud-nlkrkmrai-hack-club-bot.vercel.app/0TwtpqXB.gif)
 
 1. Look at the top bar of your workspace and select "File".
 2. Mouse over the drop down list that pops up and hit "Upload Local Files...".
@@ -376,7 +377,7 @@ This tag also has its own set of attributes like `<audio>` also it's **self-clos
 - Alternatively, hosted directly where the website is
 - e.g "thiswebsite.com/hotlinebling.mp3" another example:
 
-![](https://i.imgur.com/LUcCvwl.png)
+![](https://cloud-6nvg3sfdj-hack-club-bot.vercel.app/0LUcCvwl.png)
 
 `type="[media-type]"`
 

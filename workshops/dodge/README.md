@@ -2,13 +2,14 @@
 name: Dodge
 description: 'Bullet-dodging game using p5.js'
 author: '@MaxWofford'
+img: "https://cloud-en831u68d-hack-club-bot.vercel.app/7demo.png"
 ---
 
 # Dodge
 
-| What you'll build       |
-| ----------------------- |
-| ![](img/final_demo.gif) |
+What you'll build:
+
+![brown objects falling from the sky while dinosaur moves horizontally across the screen](https://cloud-en831u68d-hack-club-bot.vercel.app/1final_demo.gif)
 
 Links to a live demo and the final code below. This workshop should take around 1 hour and 15 minutes.
 
@@ -39,7 +40,7 @@ Just as we've done previously, we're going to be building this project in Repl.i
 
 Go ahead and spin up a new [HTML repl](https://repl.it/languages/html) before continuing.
 
-![](img/html_repl.png)
+![user interface of a code editor with text](https://cloud-en831u68d-hack-club-bot.vercel.app/3html_repl.png)
 
 Our project's code is going to be divided into two files: `index.html` (the HTML code) and `script.js` (the JavaScript code). The HTML file will tell the browser about the game's existence and how to display it on the page. The JavaScript file will tell the browser how to actually run the game.
 
@@ -522,11 +523,11 @@ Now we're in business. Mouse clicks will only reset the game if the game has end
 
 Let's make Dodge beautiful. We're going to bring the game from looking like this:
 
-![Before spicing it up](img/before_spicing_it_up.gif)
+![Before spicing it up](https://cloud-en831u68d-hack-club-bot.vercel.app/0before_spicing_it_up.gif)
 
 To looking like this:
 
-![After we add images](img/final_demo.gif)
+![After we add images](https://cloud-en831u68d-hack-club-bot.vercel.app/1final_demo.gif)
 
 #### Adding Images
 
@@ -538,22 +539,22 @@ We're providing the following images and have already uploaded them to an image 
 
 > | **Player**                        |
 > | --------------------------------- |
-> | ![](img/prophet_orpheus.png)      |
-> | `https://i.imgur.com/N5uCbDu.png` |
+> | ![white dinosaur sprite](https://cloud-en831u68d-hack-club-bot.vercel.app/8prophet_orpheus.png)      |
+> | `https://cloud-9x4hvopq6-hack-club-bot.vercel.app/0N5uCbDu.png` |
 
 <br/>
 
 > | **Enemy**                         |
 > | --------------------------------- |
-> | ![](img/asteroid.png)             |
-> | `https://i.imgur.com/OdL0XPt.png` |
+> | ![brown asteroid](https://cloud-en831u68d-hack-club-bot.vercel.app/5asteroid.png)             |
+> | `https://cloud-cfakr2ma3-hack-club-bot.vercel.app/0OdL0XPt.png` |
 
 <br/>
 
 > | **Background**                    |
 > | --------------------------------- |
-> | ![](img/background.png)           |
-> | `https://i.imgur.com/aKQOg3G.png` |
+> | ![night sky with stars](https://cloud-en831u68d-hack-club-bot.vercel.app/6background.png)           |
+> | `https://cloud-kh6ahxow6-hack-club-bot.vercel.app/0aKQOg3G.png` |
 
 <br/>
 
@@ -587,7 +588,7 @@ Now let's load an image into `playerImage` in `preload()`.
 
 ```js
 function preload() {
-  playerImage = loadImage('https://i.imgur.com/N5uCbDu.png')
+  playerImage = loadImage('https://cloud-of5gtw65x-hack-club-bot.vercel.app/0N5uCbDu.png')
 }
 ```
 
@@ -595,8 +596,8 @@ function preload() {
 
 ```js
 function preload() {
-  playerImage = loadImage('https://i.imgur.com/N5uCbDu.png')
-  enemyImage = loadImage('https://i.imgur.com/OdL0XPt.png')
+  playerImage = loadImage('https://cloud-fcmrsan58-hack-club-bot.vercel.app/0N5uCbDu.png')
+  enemyImage = loadImage('https://cloud-4lajub4te-hack-club-bot.vercel.app/0OdL0XPt.png')
 }
 ```
 
@@ -666,8 +667,8 @@ var enemyImage
 var backgroundImage
 
 function preload() {
-  enemyImage = loadImage('https://i.imgur.com/OdL0XPt.png')
-  backgroundImage = loadImage('https://i.imgur.com/aKQOg3G.png')
+  enemyImage = loadImage('https://cloud-ptjm4djok-hack-club-bot.vercel.app/0OdL0XPt.png')
+  backgroundImage = loadImage('https://cloud-dptjloh1q-hack-club-bot.vercel.app/0aKQOg3G.png')
   // ...the rest of the preload function
 }
 ```
@@ -694,7 +695,7 @@ function setup() {
 
 In GIF of what we're aiming for, you'll notice that the asteroid (the `enemy`) is spinning.
 
-![](img/final_demo.gif)
+![White dinosaur moving horizontally while brown asteroids fall from the sky](https://cloud-en831u68d-hack-club-bot.vercel.app/1final_demo.gif)
 
 This is actually quite easy to implement using p5.play. The [`Sprite`](http://p5play.molleindustria.org/docs/classes/Sprite.html) class in p5.play has an attribute called [`rotationSpeed`](http://p5play.molleindustria.org/docs/classes/Sprite.html#prop-rotationSpeed), which we can set to have p5.play rotate the sprite every time `draw()` is called.
 
@@ -712,9 +713,9 @@ Feel free to customize the enemy's rotation speed to make it faster/slower!
 
 You're done, yay! The game you made is live at the URL above the preview in the editor:
 
-![](img/preview.gif)
+![Click open in new tab button](https://cloud-en831u68d-hack-club-bot.vercel.app/4preview.gif)
 
-Don't forget to share a link to your beautiful creation on the Slack on the [`#shipit`](https://hackclub.slack.com/messages/shipit) channel!
+Don't forget to share a link to your beautiful creation on the Slack on the [`#ship`](https://hackclub.slack.com/messages/ship) channel!
 
 ## Part IV. Hacking
 

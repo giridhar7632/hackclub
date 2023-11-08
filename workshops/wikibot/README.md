@@ -10,7 +10,7 @@ A few months ago, I'd started making chatbots on [Telegram](https://t.me)—I'd 
 
 A week ago, I saw that [Twilio](https://twilio.com) had an official WhatsApp API. 30 minutes later, I made a [Wikipedia bot on WhatsApp](https://wikibot.4ty2.fun) 👇
 
-![](img/demo.png)
+![Text message describing the term Wikipedia](https://cloud-pnawa4bvo-hack-club-bot.vercel.app/4demo.png)
 
 This is a workshop to help you make a something like this, and make your own chatbots on WhatsApp, in just 30 minutes 🎓
 
@@ -18,21 +18,21 @@ This is a workshop to help you make a something like this, and make your own cha
 
 First, Sign up for [Twilio](https://www.twilio.com/try-twilio)—it's free and you won't need a credit card 💳
 
-![](img/twilio_signup.png)
+![Input fields for signing up for an account](https://cloud-pnawa4bvo-hack-club-bot.vercel.app/0twilio_signup.png)
 
 Once you're done verifying your phone number, select Products > Programmable SMS and then continue to name your project.
 
-![](img/twilio_products.png)
+![Project creation interface showing 4 boxes](https://cloud-pnawa4bvo-hack-club-bot.vercel.app/1twilio_products.png)
 
 Feel free to skip steps for adding teammates—you won't need that for now.
 
 You must now take note of some authentication keys you'll need for building the WhatsApp bot 👇
 
-![](img/auth_token.png)
+![Project dashbaord with authorization tokens highlighted](https://cloud-pnawa4bvo-hack-club-bot.vercel.app/5auth_token.png)
 
 The final step—[set up your WhatsApp Sandbox](https://www.twilio.com/console/sms/whatsapp/sandbox)—choose any number, and join your sandbox following instructions on the page.
 
-![](img/whatsapp_sandbox.png)
+![Settings page with information on setting up](https://cloud-lpjcqk5dq-hack-club-bot.vercel.app/0image.png)
 
 …and you're done with credential setup! Don't worry, that was the toughest part of this tutorial 😛
 
@@ -51,11 +51,11 @@ You can see, this environment already has dependencies installed, and an `expres
 
 Let's go back to the [WhatsApp Sandbox](https://www.twilio.com/console/sms/whatsapp/sandbox), and put in a webhook URL for incoming messages.
 
-![](img/sandbox_webhook_url.png)
+![Image of a webhook URL](https://cloud-pnawa4bvo-hack-club-bot.vercel.app/2sandbox_webhook_url.png)
 
 This URL must be what you see on the preview panel of your [repl.it](http://repl.it) project + `/incoming`
 
-![](img/replit_url.png)
+![Code in a code editor](https://cloud-pnawa4bvo-hack-club-bot.vercel.app/3replit_url.png)
 
 We can now finally read messages that are sent to the bot. Add a simple `console.log()` in your webhook handler 👇
 
@@ -67,7 +67,7 @@ app.post('/incoming', (req, res) => {
 
 When you send a message to your bot, you should be able to see something like this in your repl.it console 👨‍💻
 
-![](img/app_running.png)
+![Console output of a program running](https://cloud-pnawa4bvo-hack-club-bot.vercel.app/6app_running.png)
 
 Building an Echo bot would look something like this, using `twiml` to write a message 👇
 
@@ -157,7 +157,7 @@ Here are some you can play with 👇
 - [QOTD API](https://favqs.com/api/qotd) (Gives you a new quote everyday)
 - [Jokes API](https://08ad1pao69.execute-api.us-east-1.amazonaws.com/dev/random_joke) (Warning: jokes are **bad**)
 - [Chuck Norris](https://api.chucknorris.io/jokes/random) (Jokes on _American Rajinikanth_)
-- [Tonald Dump API](https://api.tronalddump.io/random/quote) (Stupid things Donald Trump has said)
+- [Tronald Dump API](https://api.tronalddump.io/random/quote) (Stupid things Donald Trump has said)
 - [Datamuse API](https://www.datamuse.com/api) (A super cool API to find meaningful/rhyming words with specific criteria)
 
 All code for my WikiBot is on [GitHub](https://github.com/jajoosam/wikibot), feel free to refer to it ✨

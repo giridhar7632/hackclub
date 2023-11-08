@@ -2,6 +2,7 @@
 name: 'Personal Website'
 description: 'Make your first website from scratch'
 author: '@MaxWofford'
+locales: 'es-xl, pt-br'
 ---
 
 # Personal Website
@@ -10,7 +11,7 @@ Prophet Orpheus, [our mascot](https://hackclub.com/workshops/orpheus), is here t
 
 It will look something like this:
 
-![](img/dino_site.png)
+![dinosaur reading a book](https://cloud-4zpw37atj-hack-club-bot.vercel.app/2dino_site.png)
 
 Here's the [live demo][final_live_demo] and [final code][final_code] (see `index.html` and `style.css`).
 
@@ -25,9 +26,15 @@ This workshop should take around 45 minutes.
 
 [Repl.it](https://repl.it) is an online code editor. It's similar to Google Docs, but has some important features that make it much better for typing code than a regular text editor.
 
-To get started, go to [https://repl.it/languages/html](https://repl.it/languages/html). Your coding environment will spin up in just a few seconds!
+To get started, go to [https://repl.it/languages/html](https://repl.it/languages/html). 
 
-![](img/html_repl.png)
+Click on the sign up prompt in the top right corner.
+
+![Input fields for logging in](https://cloud-ae4zkoehw-hack-club-bot.vercel.app/0image.png)
+
+Your coding environment will spin up in just a few seconds!
+
+![Text inside a code editor](https://cloud-gcyfpgb0u-hack-club-bot.vercel.app/0image.png)
 
 ## Part II: The HTML File
 
@@ -37,9 +44,9 @@ HTML stands for Hypertext Markup Language. Every website from the New York Times
 
 You should have the `index.html` file open, and a bunch of text with `<` & `>` symbols. That's HTML!
 
-![](img/html_repl.png)
+![Text inside a code editor](https://cloud-mgklr52aw-hack-club-bot.vercel.app/0image.png)
 
-Repl.it gives us some code to start out with, but we're going to start from scratch. Go ahead and delete everything in the `index.html` file then **type** in the following. **DO NOT COPY AND PASTE.**
+Repl.it gives us some code to start out with, but we're going to start from scratch. Go ahead and delete everything in the `index.html` file then **type** in the following code. **DO NOT COPY AND PASTE.**
 
 ```html
 <!DOCTYPE html>
@@ -53,9 +60,9 @@ This structure is common to all HTML pages. In fact, you can take a look for you
 
 <!-- Source https://developers.google.com/web/tools/chrome-devtools/inspect-styles/imgs/elements-panel.png -->
 
-![](img/elements-panel.png)
+![Inspect element panel containing html and css styles for a website](https://cloud-4zpw37atj-hack-club-bot.vercel.app/3elements-panel.png)
 
-Before proceeding, we'll briefly go over what our template means.
+**Before proceeding, we'll briefly go over what our template means.**
 
 HTML works by storing information inside tags. `<html></html>` is an example of one such tag. Inside `<html></html>`, we've placed two other sets of tags: `<head></head>` (which wraps around the "head") and `<body></body>` (which wraps around the "body"). The body holds everything you would see in the actual tab/window when you open the page, while the head conveys information about the page to the browser.
 
@@ -65,15 +72,15 @@ HTML works by storing information inside tags. `<html></html>` is an example of 
 
 Let's check out what our HTML file looks like in Live Preview! To do this, click on the **Run** button above the editor or press <kbd>Ctrl</kbd> + <kbd>Enter</kbd> (<kbd>Command</kbd> + <kbd>Enter</kbd> on Mac).
 
-![](img/run.png)
+![A green button](https://cloud-d92zz5ssb-hack-club-bot.vercel.app/0image.png)
 
 From there, the live preview to the right of the editor should show what your website looks like. If you want to view it in a new tab, the URL above the website preview is the live URL for your website
 
-![](img/url.png)
+![Image of a url for a website](https://cloud-chbm1r7jn-hack-club-bot.vercel.app/0image.png)
 
 You can also open the external live preview by clicking the icon that looks like a box with an arrow. This will open live preview in a new tab at the aforementioned URL
 
-![](img/preview.gif)
+![Launching the website in a new page](https://cloud-9logx0r6t-hack-club-bot.vercel.app/0v__deo_sem_t__tulo_____feito_com_o_clipchamp.gif)
 
 As you can see, the page is blank. This is because we haven't added anything to the `body` section yet. Let's add some content!
 
@@ -141,7 +148,7 @@ Go ahead and add this into your `index.html` now. I put my picture before my hea
 </html>
 ```
 
-![](img/no_css.png)
+![dinosaur reading a book and text describing it below](https://cloud-1lgnmk5nw-hack-club-bot.vercel.app/2no_css.png)
 
 Remember, you need to **Run** your program every time you want to see your updated website.
 
@@ -157,7 +164,7 @@ While HTML oversees the content and the way it's structured, CSS is how you'll s
 
 We already have an `style.css` in the file tree and this is called an external style sheet because the CSS file is external to the HTML file (i.e., the stylesheet is not inside the HTML file).
 
-![](img/index_css.png)
+![Three files in a list](https://cloud-fxxk8zq5c-hack-club-bot.vercel.app/0image.png)
 
 Although we have a CSS file, until we explicitly tell the HTML file to use the CSS file, it will not use it. We must explicitly link the CSS file in the HTML. We'll do this by typing the following into the head of `index.html` (between `<head>` and `</head>`), because the head is where we tell information about the page to the browser.
 
@@ -236,29 +243,19 @@ body {
 
 Now be sure to **Run** to get the most recent version of your website. Ah, it is truly beautiful to behold.
 
-![](img/celebrate_harry_potter.gif)
+![Children celebrating](https://cloud-4zpw37atj-hack-club-bot.vercel.app/0celebrate_harry_potter.gif)
 
 ## Part IV: Publishing
 
-To actually save your website and be able to come back to it in the future you'll need to create an account on Repl.it.
+Just need to click on the current name and then on `name`.
 
-To create an account, click on the sign up prompt in the top right corner.
+![Edit button for changing the name of a project](https://cloud-bpasdxn89-hack-club-bot.vercel.app/0image.png)
 
-![](img/signup.png)
+Once you're happy with the name you've given it, press <kbd>Enter</kbd> to confirm your changes.
 
-Once you've filled out the fields (or signed up with another account), go ahead and click on the link they send you by email
+And just like that your website is now published at the domain `PROJECTNAME.USERNAME.repl.co` on the internet for all your friends to see!
 
-![](img/email.png)
-
-Now that you have your account set up, all you need to do to change the name of your repl is click on the pencil next to it.
-
-![](img/edit_name.png)
-
-Once you're happy with the name you've given it, press <kbd>Enter</kbd> to confirm your changes (or <kbd>Escape</kbd> to cancel your name change)
-
-And just like that your website is now published at the domain `PROJECTNAME--USERNAME.repl.co` (that's two dashes before your username) on the internet for all your friends to see!
-
-![](img/celebrate_rush_hour.gif)
+![Two people singing and moving side to side in a car](https://cloud-4zpw37atj-hack-club-bot.vercel.app/1celebrate_rush_hour.gif)
 
 ## Part V: Hacking
 
@@ -272,6 +269,13 @@ A good way to get ideas for what to add to your website is to look at other peop
 
 **Websites Made by Other Hack Club Hackers:**
 
+- [Zeyu (Peter) Yao](https://cytronicoder.com)
+- [Reese Armstrong](https://reeseric.ci)
+- [Malte I. Lauterbach](https://patakh.com/)
+- [Kognise](https://kognise.dev/)
+- [Celeste](https://celeste.exposed/)
+- [Leo McElroy](https://leomcelroy.com/)
+- [Sarthak Mohanty](https://sarthakmohanty.me/)
 - [Kat Huang](https://katmh.com)
 - [Theo Bleier](https://tmb.sh/)
 - [Megan Cui](https://megancui.com/)
@@ -279,6 +283,10 @@ A good way to get ideas for what to add to your website is to look at other peop
 - [Winston Iskandar](https://winstoniskandar.com)
 - [Sophie Huang](https://sohuang.github.io/)
 - [Jevin Sidhu](http://jevinsidhu.com/)
+- [Sam Poder](http://sampoder.com/)
+- [Nisarga Adhikary](https://nisarga.me)
+- [Faisal Sayed](https://fayd.me/)
+- [EvanNotFound](https://ohevan.com/)
 
 **Websites Made by Professionals:**
 

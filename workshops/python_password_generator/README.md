@@ -1,7 +1,7 @@
 ---
 name: 'Password Generation with Python'
 description: 'Learn about cybersecurity by making a password generator in Python!'
-author: '@saneduck'
+author: '@0-0hyun'
 img: 'https://cloud-mkfjdskv8.vercel.app/068747470733a2f2f636c6f75642d6f763636733978726c2e76657263656c2e6170702f30616e73695f73616d706c655f70726f6772616d5f6f75747075742e706e67.png'
 ---
 
@@ -97,9 +97,9 @@ if (choice == '1'):
 - Then, we write the hashed password to the `save.dat` file.
 - Finally, we close the file to save our changes.
   
-To add a little flair at the end, we will add some colored text to confirm that the user successfully signed up. On the left side of repl.it, create a new file named `FColors.py`.
+To add a little flair at the end, we will add some colored text to confirm that the user successfully signed up. On the left side of repl.it, create a new file named `FColor.py`.
 
-![CreateNewFile](https://i.imgur.com/KV8rndQ.png)
+![CreateNewFile](https://cloud-3um758cqv-hack-club-bot.vercel.app/0KV8rndQ.png)
 
 The colors we will be using are referred to as ANSI escape sequences. Each sequence represents either a color, background, or style. These codes are used in terminals, including the Windows Command Prompt!
 
@@ -107,7 +107,7 @@ The colors we will be using are referred to as ANSI escape sequences. Each seque
 
 Let's define some constant strings. Each string will represent an ANSI escape sequence for a certain terminal color. It is a convention to capitalize all letters in a constant variable.
 
-Let's define these colors in `FColors.py`:
+Let's define these colors in `FColor.py`:
 
 ```py
 RED   = '\u001b[31m'
@@ -194,7 +194,7 @@ Now we will check whether or not the password the user initially inputted is the
 Under the `print()` statement, still in the for loop, add:
 
 ```py
-if(hash_data == line):
+if(pwd == line):
   print(FColor.GREEN + "Correct Password")
 else:
   print(FColor.RED + f'Incorrect Password')

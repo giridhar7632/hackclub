@@ -3,6 +3,7 @@ name: "Text Adventure Game in Rust"
 description: "Make a text adventure game while writing your first Rust program!"
 author: "@panos, @cfanoulis"
 img: "https://hackropolis.is-ne.at/0oMCQ5.png"
+locales: 'pt-br'
 ---
 
 # Make a text-based adventure game in Rust!
@@ -53,7 +54,7 @@ src
 
 ### Part 2.1: The Manifest (Cargo.toml)
 
-The `cargo.toml` file is you project's manifest, which describes your project & its dependencies. Here's how an example `Cargo.toml` file would look like:
+The `cargo.toml` file is your project's manifest, which describes your project & its dependencies. Here's how an example `Cargo.toml` file would look like:
 
 `Cargo.toml`:
 
@@ -419,5 +420,3 @@ You can also check out [this remix](https://repl.it/@cfanoulis/stickerquest-para
 - [The Rust Programming Language - an in-depth guide to Rust. This workshop has been inspired by Chapter 2 of the book](https://doc.rust-lang.org/book)
 - [Rust By Example - For those that prefer code examples rather than pages of documentation](https://doc.rust-lang.org/stable/rust-by-example/)
 - [Rust's learning resources page - including guides to advanced courses on other topics](https://www.rust-lang.org/learn)
-
-You may also be interested in listening to [Charalampos's mixtape](https://hackropolis.club/mixtape). Shameless plug, I know.
